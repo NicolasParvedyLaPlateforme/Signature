@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <style>
+        body{
+            font-family: "Arial"
+        }
+
+        td{
+            font-size:1.2em;
+        }
+
+        a{
+            text-decoration:none;
+        }
+
+        @media (max-width: 768px) {
+            .no-mobile {
+                display:none;
+            }
+
+            .mobile-caption{
+                width:100% !important;
+            }
+        }
+    </style>
+    <table>
+        <caption style="height:20px;background-color:#0062FF;width:805px;" class="mobile-caption">
+        </caption>
+    </table>
+    <table style="background-color:#EEEEEE;padding:20px;margin-bottom:10px;">
+        <caption style="caption-side: bottom;padding:5px;text-align: right;">
+            <a href="#">GitHub</a>
+            <a href="#">Linkedin</a>
+        </caption>
+        <thead>
+            <tr>
+                <td style="text-transform:uppercase;letter-spacing: 2px;"><strong>Nicolas Parvedy</strong></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr >
+                <td style="border-spacing: 5px;">Développeur Web PHP/SYMFONY</td>
+            </tr>
+
+            <tr>
+                <td style="height:20px;"></td>
+            </tr>
+
+            <tr class="no-mobile">
+                <td style="width:600px"></td>
+                <td style="position:relative"><img src="photo2.png" style="position:absolute;left:0;top:-50px;width:100px;border-radius:100%"></td>
+                <td style="width:150px;"></td>
+            </tr>
+
+            <tr>
+                <td style="color:#0062FF;"><a href="tel:0786089130">07.86.08.91.30</a></td>
+            </tr>
+
+            <tr>
+                <td style="color:#0062FF"><a href="mailto:nicolasparvedy@gmail.com">nicolasparvedy@gmail.com</a></td>
+            </tr>
+
+            <tr>
+                <td style="height:20px;"></td>
+            </tr>
+
+            <tr>
+                <td>Lyon</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
